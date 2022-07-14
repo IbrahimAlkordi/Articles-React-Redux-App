@@ -1,0 +1,104 @@
+.dashboard {
+  margin: 3rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+
+.dashboard h2 {
+  color: #661d1d;
+  margin: 2rem auto;
+  text-align: center;
+  text-transform: uppercase;
+  
+  
+}
+
+.dashboard ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search{
+  margin: 3rem auto 0rem ;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+.search label {
+  display: block;
+  color: #661d1d;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.search input {
+  display: block;
+  width: 20rem;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.search button {
+  font: inherit;
+  margin: 1rem auto 0rem ;
+  cursor: pointer;
+  background-color: #661d1d;
+  border: 1px solid #661d1d;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+.search button:hover,
+.search button:active {
+  background-color: #ffa600;
+  border-color: #ffa600;
+}
+
+
+.add{
+  margin: 3rem auto 0rem ;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+
+.add button {
+  font: inherit;
+  margin: 0rem auto 0rem ;
+  cursor: pointer;
+  background-color: #661d1d;
+  border: 1px solid #661d1d;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  
+}
+
+.add button:hover,
+.add button:active {
+  background-color: #ffa600;
+  border-color: #ffa600;
+}
+
+.loading{
+  margin: 5rem auto;
+  
+  width: 25rem;
+  
+  padding: 1rem;
+  text-align: center;
+  
+}
